@@ -67,7 +67,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv);
 
   // fetch data from server => bot's
-  const response = await fetch("https://codex-d3ir.onrender.com/", {
+  const response = await fetch("https://codex-d3ir.onrender.com", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
